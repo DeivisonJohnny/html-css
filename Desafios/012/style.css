@@ -1,0 +1,92 @@
+@import url('UTF-8');
+
+@font-face {
+    font-family: 'troika';
+    src: url(font/troika.otf);
+}
+
+@font-face {
+    font-family: 'sriracha';
+    src: url(font/Sriracha-Regular.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header {
+    background-color: black;
+    height: 200px;
+}
+
+header h1 {
+    font-family: 'troika', Arial, Helvetica, sans-serif;
+    color: white;
+    font-size:4em;
+    text-align: center;
+    padding-top: 50px;
+}
+
+header p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+
+header > p a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.sb {
+    padding: 40px;
+}
+
+section p {
+    font-size: 28px;
+    font-family: 'sriracha', Arial, Helvetica, sans-serif;
+    padding-bottom: 40px;
+}
+
+.st {
+    padding: 40px;
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-position: center right;
+    background-attachment: fixed;
+}
+
+.st > p {
+    color: white;
+    padding: 10px;
+    width: max-content;
+    background-color: rgba(0, 0, 0, 0.495);
+}
+
+#st1 {
+    background-image: url(imagens/background002.jpg);
+}
+
+footer {
+    background-color: black;
+
+}
+
+footer p, a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    padding: 10px 0px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
