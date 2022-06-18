@@ -1,8 +1,8 @@
 @import url('UTF-8');
 
 @font-face {
-    font-family: 'troika';
-    src: url(font/troika.otf);
+    font-family: 'cairo';
+    src: url(font/static/Cairo-Bold.ttf);
 }
 
 @font-face {
@@ -18,15 +18,16 @@
 
 header {
     background-color: black;
-    height: 200px;
+    min-height: 180px;
+    padding: 40px 0px;
 }
 
 header h1 {
-    font-family: 'troika', Arial, Helvetica, sans-serif;
+    font-family: 'cairo', Arial, Helvetica, sans-serif;
     color: white;
     font-size:4em;
     text-align: center;
-    padding-top: 50px;
+
 }
 
 header p {
@@ -49,7 +50,7 @@ header > p a {
 }
 
 section p {
-    font-size: 28px;
+    font-size: 3em;
     font-family: 'sriracha', Arial, Helvetica, sans-serif;
     padding-bottom: 40px;
 }
