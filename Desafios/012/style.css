@@ -18,12 +18,12 @@
 
 header {
     background-color: black;
-    min-height: 180px;
-    padding: 40px 0px;
+    min-height: 10vw;
+    /* padding: 40px 0px; */
 }
 
 header h1 {
-    height: 180px;
+    height: min-content;
     font-family: 'cairo', Arial, Helvetica, sans-serif;
     color: white;
     font-size: 8vw;
@@ -36,14 +36,16 @@ header p {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-align: center;
-    font-size: 1vw;
+    font-size: 3vw;
+    padding: 20px 0px;
 }
 
 header > p a {
     text-decoration: none;
     color: white;
-    font-size: 1vw;
+    font-size: 3vw;
     font-weight: 800;
+    
 
 }
 
