@@ -61,6 +61,7 @@ section p {
     /* max-width: max-content; */
     padding: 40px;
     background-image: url(imagens/background001.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center right;
     background-attachment: fixed;
@@ -77,6 +78,8 @@ section p {
 
 #st1 {
     background-image: url(imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 footer {
