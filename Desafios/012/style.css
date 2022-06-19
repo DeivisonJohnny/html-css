@@ -23,6 +23,7 @@ header {
 }
 
 header h1 {
+    height: 180px;
     font-family: 'cairo', Arial, Helvetica, sans-serif;
     color: white;
     font-size: 8vw;
@@ -35,23 +36,23 @@ header p {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-align: center;
-    font-size: 3vw;
+    font-size: 1vw;
 }
 
 header > p a {
     text-decoration: none;
     color: white;
-    font-size: 3vw;
-    font-weight: 700;
+    font-size: 1vw;
+    font-weight: 800;
 
 }
 
 .sb {
-    padding: 40px;
+    padding: 20px 40px;
 }
 
 section p {
-    font-size: 5vw;
+    font-size: 3.5vw;
     font-family: 'sriracha', Arial, Helvetica, sans-serif;
     padding-bottom: 40px;
 }
