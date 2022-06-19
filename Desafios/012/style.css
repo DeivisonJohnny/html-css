@@ -25,7 +25,7 @@ header {
 header h1 {
     font-family: 'cairo', Arial, Helvetica, sans-serif;
     color: white;
-    font-size: 4em;
+    font-size: 8vw;
     text-align: center;
     padding: 10px 0px;
 
@@ -35,13 +35,13 @@ header p {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-align: center;
-    font-size: 16px;
+    font-size: 3vw;
 }
 
 header > p a {
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    font-size: 3vw;
     font-weight: 700;
 
 }
@@ -51,7 +51,7 @@ header > p a {
 }
 
 section p {
-    font-size: 3em;
+    font-size: 5vw;
     font-family: 'sriracha', Arial, Helvetica, sans-serif;
     padding-bottom: 40px;
 }
