@@ -18,14 +18,14 @@
 
 header {
     background-color: black;
-    min-height: 180px;
+    min-height: 150px;
     padding: 40px 0px;
 }
 
 header h1 {
     font-family: 'cairo', Arial, Helvetica, sans-serif;
     color: white;
-    font-size: 8vw;
+    font-size: 7vw;
     text-align: center;
     padding: 10px 0px;
 
@@ -35,13 +35,13 @@ header p {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-align: center;
-    font-size: 3vw;
+    font-size: 2vw;
 }
 
 header > p a {
     text-decoration: none;
     color: white;
-    font-size: 3vw;
+    font-size: 2vw;
     font-weight: 700;
 
 }
@@ -51,7 +51,7 @@ header > p a {
 }
 
 section p {
-    font-size: 5vw;
+    font-size: 4vw;
     font-family: 'sriracha', Arial, Helvetica, sans-serif;
     padding-bottom: 40px;
 }
